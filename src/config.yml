@@ -1,0 +1,21 @@
+shops:
+  C:
+    COBBLESTONE: 3
+    STONE: 4
+    IRON_ORE: 5
+    INK_SACK;4: 8
+    GOLD_ORE: 9
+    IRON_INGOT: 10
+    GOLD_INGOT: 18
+  B:
+    COBBLESTONE: 2
+    STONE: 3
+    IRON_ORE: 4
+    INK_SACK;4: 6
+    IRON_INGOT: 8
+  A:
+    COBBLESTONE: 1
+    STONE: 2
+    IRON_ORE: 2.5
+    INK_SACK;4: 4
+    IRON_INGOT: 5

@@ -1,0 +1,24 @@
+name: SolarMines-Custom
+author: Askingg
+version: 1.0.0
+main: prevail.askingg.solarmines.main.SM
+description: Custom Features for SolarMines by Askingg
+
+commands:
+  tokens:
+    aliases: [token]
+    description: Tokens Base Command
+  customenchant:
+    aliases: [customenchanting, customenchants, enchants, enchant, ce]
+    description: Enchant Your Items
+  sell:
+    aliases: [sellall, s]
+    description: Sell Your Items
+  blocks:
+    aliases: [broken, block]
+    description: View How Many Blocks a Player Has Mined
+  blockstop:
+    aliases: [topblocks, brokentop, topbroken, topblocksbroken, blocksbrokentop]
+    description: View The Players With the Most Blocks Broken 
+  booster:
+    aliases: [boosters, boost, multipliers, multiplier, multi]
