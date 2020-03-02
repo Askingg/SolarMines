@@ -1,0 +1,65 @@
+name: SolarMines-Custom
+author: Askingg
+version: 1.0.0
+main: prevail.askingg.solarmines.main.SM
+description: Custom Features for SolarMines by Askingg
+
+commands:
+  tokens:
+    aliases: [token]
+    description: Tokens Base Command
+  customenchant:
+    aliases: [customenchanting, customenchants, enchants, enchant, ce]
+    description: Enchant Your Items
+  sell:
+    aliases: [sellall, s]
+    description: Sell Your Items
+  blocks:
+    aliases: [broken, block]
+    description: View How Many Blocks a Player Has Mined
+  blockstop:
+    aliases: [topblocks, brokentop, topbroken, topblocksbroken, blocksbrokentop]
+    description: View The Players With the Most Blocks Broken 
+  booster:
+    aliases: [boosters, boost, multipliers, multiplier, multi]
+    description: View your Economy Boosters
+  solarreload:
+    aliases: [reloadsolar]
+    description: Reload the plugins config
+  marry:
+    aliases: [marriage]
+    description: Marry other players
+  rankup:
+    aliases: [rank, ru]
+    description: Progress through the ranks.
+  rankupmax:
+    aliases: [maxrankup, rum]
+    description: Progress to the highest rank you can afford.
+  prestige:
+    description: Start over from A
+  ascend:
+    aliases: [ascension]
+    description: Start over from prestige 0 A
+  ranks:
+    description: View all of the ranks
+  crates:
+    aliases: [crate, cr, c]
+    description: Crates base command
+  cratemoney:
+    description: Give money based on the users progress
+  mining:
+    description: View the tokens you get at different blocks broken intervals.
+  blockcheck:
+    aliases: [howmanytokens]
+    description: View how many tokens youll have received by a certain block milestone
+  luckyblocks:
+    aliases: [luckyblock, lb]
+    description: View information on the levels of the LuckyBlocks enchantment.
+  voterewards:
+    description: Ran when a user votes.
+  donationmessage:
+    description: Ran when a user makes a purchase on the donation store.
+  prestigepoints:
+    aliases: [ppoints, points]
+    description: Base command for prestige points.
+    

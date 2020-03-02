@@ -1,0 +1,144 @@
+#worth = baseWorth * rankModifier
+
+baseWorth:
+  COBBLESTONE: 1
+  STONE: 2
+  IRON_ORE: 3
+  IRON_INGOT : 4
+  INK_SACK;4: 5
+  GOLD_ORE: 10
+  GOLD_INGOT: 
+  IRON_BLOCK: 20
+  REDSTONE: 40
+  LAPIS_BLOCK: 80
+  GOLD_BLOCK: 160
+  DIAMOND: 320
+  OBSIDIAN: 640
+  REDSTONE_BLOCK: 1200
+  EMERALD: 2500
+  ENDER_STONE: 5000
+  COAL: 10000
+  DIAMOND_BLOCK: 20000
+  QUARTZ_BLOCK: 40000
+  EMERALD_BLOCK: 80000
+  COAL_BLOCK: 160000
+  
+rankModifiers:
+  A: 1
+  B: 2
+  C: 3
+  D: 4
+  E: 5
+  F: 6
+  G: 7
+  H: 8
+  I: 9
+  J: 10
+  K: 11
+  L: 12
+  M: 13
+  N: 14
+  O: 15
+  P: 16
+  Q: 17
+  R: 18
+  S: 19
+  T: 20
+  U: 21
+  V: 22
+  W: 23
+  X: 24
+  Y: 25
+  Z: 26
+  Parole: 27
+  Free: 28
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ranks:
+  A: 1000
+  B: 2500
+  C: 5000
+  D: 10000
+  E: 25000
+  F: 50000
+  G: 75000
+  H: 125000
+  I: 150000
+  J: 200000
+  K: 250000
+  L: 300000
+  M: 400000
+  N: 500000
+  O: 750000
+  P: 1000000
+  Q: 1250000
+  R: 1500000
+  S: 1750000
+  T: 2000000
+  U: 3000000
+  V: 4000000
+  W: 5000000
+  Z: 10000000
+  Y: 25000000
+  Z: 50000000
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+chat:
+  player:
+    Askingg: 
+      chat: '&b&ki&3&oOwner&b&ki&b %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+  permission:
+    admin:
+      chat: '&2&ki&a&oAdmin&2&ki&a %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    dev:
+      chat: '&e&ki&6&oDev&e&ki&e %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    builder:
+      chat: '&d&ki&5&oBuilder&d&ki&d %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    mod:
+      chat: '&3&ki&9&oMod&3&ki&3 %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    helper:
+      chat: '&5&ki&d&oHelper&5&ki&d %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    default:
+      chat: '&f%player_displayname%&7 » %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+tab:
+  player:
+    Askingg: '&8 &l» &aStaff&8&l »&f &f &f &f &f &f &f &b&ki&3&oOwner&8&b&ki&b %player%'
+  permission:
+    admin: '&8 &l» &aStaff&8&l »&f &f &f &f &f &f &f &a&ki&2&oMod&a&ki&a %player%'
+    player: '&8 &l» &fMember&8&l »&f&l &f&l &f &f %player%'

@@ -1,0 +1,222 @@
+Common:
+  color: '&a'
+  #RARITIES:
+  # &fCommon » 40-80%
+  # &dUncommon » 20-35%
+  # &aRare » 10 - 20%
+  # &bEpic »  - 10%
+  # &cLegendary »  - %
+  # &c&ki&6&oInf&e&oer&6&ona&e&ol&c&ki » 
+  drops:
+    a:
+      display:
+        type: PAPER
+        data: 0
+        amount: 1
+        name: '%sm_cratemoney_500%'
+        lore:
+        - ''
+        - '&fRarity&3 &l»&a &fCommon'
+      commands:
+      - 'cratemoney %player% 500'
+      chance: 60
+    b:
+      display:
+        type: PAPER
+        data: 0
+        amount: 1
+        name: '%sm_cratemoney_1000%'
+        lore:
+        - ''
+        - '&fRarity&3 &l»&a &fCommon'
+      commands:
+      - 'cratemoney %player% 1000'
+      chance: 50
+    c:
+      display:
+        type: PAPER
+        data: 0
+        amount: 1
+        name: '%sm_cratemoney_2500%'
+        lore:
+        - ''
+        - '0&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'cratemoney %player% 2500'
+      chance: 30
+    d:
+      display:
+        type: PAPER
+        data: 0
+        amount: 1
+        name: '%sm_cratemoney_5000%'
+        lore:
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'cratemoney %player% 5000'
+      chance: 25
+    e:
+      display:
+        type: PAPER
+        data: 0
+        amount: 1
+        name: '%sm_cratemoney_10000%'
+        lore:
+        - ''
+        - '&fRarity&3 &l»&a &aRare'
+      commands:
+      - 'cratemoney %player% 10000'
+      chance: 15
+    f:
+      display:
+        type: SLIME_BALL
+        data: 0
+        amount: 1
+        name: '&bToken'
+        lore:
+        - ''
+        - '&7 Right-Click to redeem token(s)'
+        - '&7 &oSneak to claim all tokens in'
+        - '&7 &oyour inventory.'
+        - ''
+        - '&fRarity&3 &l»&a &fCommon'
+      commands:
+      - 'tokens give %player% 1 physical'
+      chance: 45
+    g:
+      display:
+        type: SLIME_BALL
+        data: 0
+        amount: 2
+        name: '&bToken'
+        lore:
+        - ''
+        - '&7 Right-Click to redeem token(s)'
+        - '&7 &oSneak to claim all tokens in'
+        - '&7 &oyour inventory.'
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'tokens give %player% 1 physical'
+      chance: 25
+    h:
+      display:
+        type: MAGMA_CREAM
+        data: 0
+        amount: 1
+        name: '&aMoney Booster'
+        lore:
+        - ''
+        - '&f Type&3 &l»&b Personal'
+        - '&f Boost&3 &l»&a 1.6'
+        - '&f Duration&3 &l»&a 3m'
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'booster give %player% 1.6 180 personal'
+      chance: 25
+    i:
+      display:
+        type: MAGMA_CREAM
+        data: 0
+        amount: 1
+        name: '&aMoney Booster'
+        lore:
+        - ''
+        - '&f Type&3 &l»&b Personal'
+        - '&f Boost&3 &l»&a 1.6'
+        - '&f Duration&3 &l»&a 4m'
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'booster give %player% 1.6 240 personal'
+      chance: 23
+    j:
+      display:
+        type: MAGMA_CREAM
+        data: 0
+        amount: 1
+        name: '&aMoney Booster'
+        lore:
+        - ''
+        - '&f Type&3 &l»&b Personal'
+        - '&f Boost&3 &l»&a 2.3'
+        - '&f Duration&3 &l»&a 2m'
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'booster give %player% 2.3 120 personal'
+      chance: 21
+    k:
+      display:
+        type: MAGMA_CREAM
+        data: 0
+        amount: 1
+        name: '&aMoney Booster'
+        lore:
+        - ''
+        - '&f Type&3 &l»&b Global'
+        - '&f Boost&3 &l»&a 1.5'
+        - '&f Duration&3 &l»&a 2m'
+        - ''
+        - '&fRarity&3 &l»&a &dUncommon'
+      commands:
+      - 'booster give %player% 1.5 120 global'
+      chance: 20
+    l:
+      display:
+        type: MAGMA_CREAM
+        data: 0
+        amount: 1
+        name: '&aMoney Booster'
+        lore:
+        - ''
+        - '&f Type&3 &l»&b Global'
+        - '&f Boost&3 &l»&a2.0'
+        - '&f Duration&3 &l»&a 1m 30s'
+        - ''
+        - '&fRarity&3 &l»&a &aRare'
+      commands:
+      - 'booster give %player% 2 90 global'
+      chance: 13
+    m:
+      display:
+        type: TRIPWIRE_HOOK
+        data: 0
+        amount: 2
+        name: '&a&lCommon Key'
+        lore:
+        - ''
+        - '&7 RightClick on a chest while'
+        - '&7 holding this key to open.'
+        - ''
+        - '&fRarity&3 &l»&a &aRare'
+      commands:
+      - 'crate give %player% common 2'
+      chance: 20
+    n:
+      display:
+        type: TRIPWIRE_HOOK
+        data: 0
+        amount: 1
+        name: '&c&lRare Key'
+        lore:
+        - ''
+        - '&7 RightClick on a chest while'
+        - '&7 holding this key to open.'
+        - ''
+        - '&fRarity&3 &l»&a &aRare'
+      commands:
+      - 'crate give %player% rare 1'
+      chance: 20
+
+Rare:
+  color: '&c'
+  
+Epic:
+  color: '&b'
+  
+Legendary: 
+  color: '&6'
+
